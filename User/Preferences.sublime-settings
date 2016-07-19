@@ -1,0 +1,28 @@
+{
+	"added_words":
+	[
+		"neuroevolutionary",
+		"neuroevolution",
+		"param",
+		"chromo"
+	],
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"paths":
+	{
+		"linux":
+		[
+			"/usr/bin/javac"
+		],
+		"osx":
+		[
+		],
+		"windows":
+		[
+		]
+	}
+}

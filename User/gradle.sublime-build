@@ -1,0 +1,80 @@
+{
+    "cmd": ["gradle build"],
+    "shell": "true",
+    "working_dir": "${project_path}",
+
+	"variants": [
+		{
+			"name": "compileJava",
+			"cmd": ["gradle compileJava"],
+	 	},
+		{
+			"name": "processResources",
+			"cmd": ["gradle processResources"],
+		},
+		{
+			"name": "classes",
+			"cmd": ["gradle classes"],
+		},
+		{
+			"name": "jar",
+			"cmd": ["gradle jar"],
+		},
+		{
+			"name": "assemble",
+			"cmd": ["gradle assemble"],
+		},
+		{
+			"name": "compileTestJava",
+			"cmd": ["gradle compileTestJava"],
+		},
+		{
+			"name": "assemble",
+			"cmd": ["gradle assemble"],
+		},
+		{
+			"name": "compileTestJava",
+			"cmd": ["gradle compileTestJava"],
+		},
+		{
+			"name": "processTestResources",
+			"cmd": ["gradle processTestResources"],
+		},
+		{
+			"name": "testClasses",
+			"cmd": ["gradle testClasses"],
+		},
+		{
+			"name": "check",
+			"cmd": ["gradle check"],
+		},
+		{
+			"name": "build",
+			"cmd": ["gradle build"],
+		},
+		{
+			"name": "clean",
+			"cmd": ["gradle clean"],
+		},
+		{
+			"name": "test",
+			"cmd": ["gradle test"],
+		},
+		{
+			"name": "jacocoTestReport",
+			"cmd": ["gradle jacocoTestReport"],
+		},
+		{
+			"name": "test --stacktrace",
+			"cmd": ["gradle test --stacktrace"],
+		},
+		{
+			"name": "javadoc",
+			"cmd": ["gradle javadoc"],
+		},
+		{
+			"name": "run",
+			"cmd": ["gradle run"],
+		}
+	]
+}

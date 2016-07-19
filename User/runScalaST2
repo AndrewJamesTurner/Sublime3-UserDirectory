@@ -1,0 +1,12 @@
+#!/bin/bash
+# compiles all java files within directory and runs first argument
+for file in *.scala
+do
+echo "Compiling $file"
+scalac $file
+done
+
+fbname=$(basename "$1" .scala)
+
+echo "Running $fbname"
+scala $fbname

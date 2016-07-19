@@ -1,0 +1,23 @@
+{
+"shell_cmd" : "gcc -g *.c *.h -lm",
+"working_dir" : "$file_path",
+"variants":
+  [
+    {
+      "name": "Hardcore!",
+      "shell_cmd": "gcc -pedantic -Wall -g *.c *.h -lm"
+    },
+    {
+      "name": "Run",
+      "shell_cmd": "gcc *.c *.h && ./a.out"
+    },
+    {
+      "name": "Debug",
+      "shell_cmd": "gcc *.c *.h -g"
+    },
+    {
+      "name": "Valgrind",
+      "shell_cmd": "gcc *.c *.h -g && valgrind --leak-check=yes ./a.out"
+    }
+  ]
+}

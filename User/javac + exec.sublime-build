@@ -1,0 +1,4 @@
+build javac "$FileName" && java "$BaseName"
+lineNumberRegex ^(...*?):([0-9]*):?([0-9]*)
+showWhenFinished false
+workingDir $ProjectDir

@@ -1,0 +1,12 @@
+#!/bin/bash
+# compiles all java files within directory and runs first argument
+for file in *.java
+do
+echo "Compiling $file"
+javac $file
+done
+
+fbname=$(basename "$1" .java)
+
+echo "Running $fbname"
+java $fbname
